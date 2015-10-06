@@ -5,6 +5,12 @@
   margin: 50px auto;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .headers {
   font-size: 20px;
   color: white;
@@ -13,14 +19,8 @@
   margin: 0;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-
-}
-
 p {
-  transition: all 1s;
+  transition: all 0s;
 }
 
 .content {
@@ -36,6 +36,8 @@ p {
 .shown {
   font-size: 16px;
   padding: 10px;
+  min-height: 200px;
+  overflow: hidden;
 }
 
 
