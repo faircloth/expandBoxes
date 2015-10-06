@@ -1,6 +1,5 @@
 .container {
   width: 600px;
-  border: 1px solid blue;
   margin: 50px auto;
 }
 
@@ -11,21 +10,28 @@ ul {
 }
 
 .headers {
-  font-size: 20px;
+  font-size: 24px;
   color: white;
-  background-color: green;
+  background-color: #082c38;
   padding: 10px;
   margin: 0;
 }
 
+.headers:hover {
+  background-color: #39bced;
+  color: #082c38 ;
+  transition: all 0s;
+}
+
+
 p {
-  transition: all .5s;
+  transition: all ease 0.5s;
   margin: 0;
 }
 
 .content {
-  font-size: 16px;
-  padding: 10px;
+  font-size: 24px;
+  padding: 20px 10px;
 }
 
 .hidden {
@@ -34,7 +40,7 @@ p {
 } 
 
 .shown {
-  font-size: 16px;
+  font-size: 24px;
   padding: 20px 10px;
   overflow: hidden;
 }
