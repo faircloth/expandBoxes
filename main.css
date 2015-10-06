@@ -21,6 +21,7 @@ ul {
 
 p {
   transition: all 0s;
+  margin: 0;
 }
 
 .content {
@@ -36,7 +37,7 @@ p {
 .shown {
   font-size: 16px;
   padding: 10px;
-  min-height: 200px;
+  min-height: 150px;
   overflow: hidden;
 }
 
