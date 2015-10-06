@@ -1,6 +1,5 @@
 .container {
   width: 600px;
-  height: 300px;
   border: 1px solid blue;
   margin: 50px auto;
 }
@@ -20,7 +19,7 @@ ul {
 }
 
 p {
-  transition: all 0s;
+  transition: all .5s;
   margin: 0;
 }
 
@@ -36,8 +35,7 @@ p {
 
 .shown {
   font-size: 16px;
-  padding: 10px;
-  min-height: 150px;
+  padding: 20px 10px;
   overflow: hidden;
 }
 
