@@ -2,29 +2,40 @@
   width: 600px;
   height: 300px;
   border: 1px solid blue;
-  margin: 0 auto;
-  padding: 0; }
+  margin: 50px auto;
+}
 
-h1 {
-  font-size: 16px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  background-color: green;
-  padding-left: 10px;
-  margin: 0;
+.headers {
+  font-size: 20px;
   color: white;
+  background-color: green;
+  padding: 10px;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+
 }
 
 p {
-  font-size: 14px;
-  margin: 0;
+  transition: all 1s;
+}
+
+.content {
+  font-size: 16px;
+  padding: 10px;
 }
 
 .hidden {
-  height: 0px; 
+  height: 0px;
   overflow: hidden;
-}
+} 
 
 .shown {
-  min-height: 248px;
-  padding-top: 10px; }
+  font-size: 16px;
+  padding: 10px;
+}
+
+

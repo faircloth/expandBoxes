@@ -2,10 +2,12 @@
 // console.log (test);
 
 
-$('h1').on('click','p', function(event) {
-    var btn = $(event.target);
-    btn.removeClass('hidden');
-    btn.addClass('shown'); 
+$('div').on('click','.headers', function(event) {
+    btn = $(event.target);
+    parent = $(btn.parent());
+    content = $(parent.children('p'));
+    content.removeClass('content')
+    content.addClass('hidden');
 });
 
 
